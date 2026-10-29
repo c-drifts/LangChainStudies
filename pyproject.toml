@@ -8,11 +8,13 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "chromadb>=1.5.9",
     "langchain>=1.4.7",
     "langchain-community>=0.4.2",
     "langchain-openai>=1.7.2",
     "openai>=3.36.1",
     "pydantic>=2.14.1",
+    "pypdf>=6.21.4",
     "wikipedia>=1.4.0",
 ]
 
